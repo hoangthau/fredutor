@@ -1,0 +1,37 @@
+.green {
+    color: #00ab6b;
+}
+
+.navbar-default .navbar-brand {
+    color: #00ab6b;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom: 1px #e7e7e7 solid;
+    margin-bottom: 0;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 50px;
+}
+
+.banner {
+    height: 400px;
+    background-image: url("assets/banner2.jpg");
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+.banner > p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.feature-divider{
+    margin: 80px 0;
+}
