@@ -2,16 +2,6 @@
     color: #00ab6b;
 }
 
-.navbar-default .navbar-brand {
-    color: #00ab6b;
-}
-.navbar-default {
-    background-color: #fff;
-    border-color: #fff;
-    border-bottom: 1px #e7e7e7 solid;
-    margin-bottom: 0;
-}
-
 footer {
     border-top: 1px solid #eee;
     padding-top: 50px;
@@ -34,4 +24,51 @@ footer {
 
 .feature-divider{
     margin: 80px 0;
+}
+
+.signup-wrapper {
+    padding: 40px 0;
+}
+.signup-wrapper form {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.signup-wrapper .submit, .login-wrapper .submit {
+    width: 100%;
+}
+
+.login-wrapper {
+    width: 25%;
+    padding: 50px 0;
+}
+
+/*overwrite bootstrap css*/
+.navbar-default .navbar-brand {
+    color: #00ab6b;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom: 1px #e7e7e7 solid;
+    margin-bottom: 0;
+}
+
+.btn-primary, 
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:focus, 
+.btn-primary:visited, 
+.btn-primary:active:hover {
+    background-color: #00ab6b;
+    border-color: #00ab6b;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+a,
+a:hover {
+    color: #00ab6b;
 }
