@@ -8,18 +8,22 @@ footer {
 }
 
 .banner {
-    height: 400px;
-    background-image: url("assets/banner2.jpg");
+    height: 600px;
+    background-image: url("assets/banner3.jpg");
     margin-bottom: 20px;
     background-repeat: no-repeat;
+    padding: 20px; 
+    text-align: center;
 }
 
-.banner > p {
+.banner  p {
     color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-    width: 350px;
-    margin-top: 10px;
+    font-size: 35px;
+    text-transform: uppercase;   
+}
+
+.banner  .slogan {
+    margin-top: 10%;
 }
 
 .feature-divider{
@@ -41,6 +45,15 @@ footer {
 .login-wrapper {
     width: 25%;
     padding: 50px 0;
+}
+
+.header {
+    border-bottom: 1px #eee solid;
+    padding-bottom: 5px;
+}
+
+.why-choose {
+    margin-bottom: 100px;
 }
 
 /*overwrite bootstrap css*/
