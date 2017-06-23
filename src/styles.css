@@ -56,6 +56,10 @@ footer {
     margin-bottom: 100px;
 }
 
+.introduction p {
+    text-align: justify;
+}
+
 /*overwrite bootstrap css*/
 .navbar-default .navbar-brand {
     color: #00ab6b;
